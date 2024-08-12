@@ -119,15 +119,15 @@ echo -e "\n"
 sleep 3
 clear
 
-echo -e "\e[36m[+] Installing Xfce4, Plugins and Tools\e[0m"
+echo -e "\e[36m[+] Installing Plugins and Tools\e[0m"
 echo -e "\n"
-pkg install xfce4 -y
-apt install xfce4-whiskermenu-plugin -y
-apt install xfce4-screenshooter -y
-apt install xfce4-taskmanager -y
-apt install xfce4-docklike-plugin -y
+pkg install gnome -y
+apt install gnome-whiskermenu-plugin -y
+apt install gnome-screenshooter -y
+apt install gnome-taskmanager -y
+apt install gnome-docklike-plugin -y
 apt install matchbox-keyboard -y
-echo -e "\e[32m[✓] Xfce4, Plugins, Tools, Packages, Installed Successfully.\e[0m"
+echo -e "\e[32m[✓] Plugins, Tools, Packages, Installed Successfully.\e[0m"
 echo -e "\n"
 sleep 3
 clear
