@@ -21,3 +21,24 @@ Termux,Termux-X11 and Input Bridge v0.0.7
 Open Termux and paste the installation command :
 
 curl -s -o ~/x https://raw.githubusercontent.com/Chris27524/Boxvidra-modded/main/install && . ~/x
+
+
+Recommend setup for termux-x11 :
+resolution mode exact or native
+
+Resolution 1280x720
+
+Reseed Screen While Soft Keyboard is open OFF
+
+Show additional keyboard OFF
+
+Fullscreen on device display ON
+
+Force Landscape orientation ON
+
+Controllers :
+Input bridge app is required if you want to make a control buttons in the screen, also you can use Xinput bridge.
+
+
+
+
